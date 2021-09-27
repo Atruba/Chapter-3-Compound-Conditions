@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+	int studentgrade;
+	cout << "Please enter the student's grades." << endl;
+	cin >> studentgrade; //This line will ask for grades
+
+	if (studentgrade >= 70) {
+		cout << "It's a A" << endl;
+	}
+	else if (studentgrade >= 60 && studentgrade <= 69) {
+		cout << "Its's a B" << endl;
+    }
+	else if (studentgrade >= 50 && studentgrade <= 59) {
+		cout << "It's a C" << endl;
+    }
+	else if (studentgrade >= 40 && studentgrade <= 49) {
+		cout << "It's a D" << endl;
+    }
+	else if (studentgrade < 40) {
+		cout << "Fail" << endl;
+	}
+	return 0;
+}
