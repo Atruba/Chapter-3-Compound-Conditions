@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+	int time;
+	cout << "How much time do you need to wait?" << endl;
+	cin >> time; //These lines will ask the user how much time you need to wait.
+
+	if (time >= 15) {
+		cout << "He will take too long. Might as well buy some coffee and kill some time." << endl;
+		int money;
+		cout << "How much money do you have?" << endl;
+		cin >> money; //These line will ask the user how much money they have.
+
+		if (money >= 5)
+			cout << "Go buy coffee and kill some time" << endl;
+
+		else if (money < 5)
+			cout << "You dont have enough money to buy some coffee, just go for a walk around the town" << endl;
+
+		  }
+	else if (time < 15) {
+		cout << "Just sit in the park and wait for him and do some grumbling" << endl;
+	}
+	return 0;
+}
