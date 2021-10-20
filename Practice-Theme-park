@@ -1,0 +1,23 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+	cout << "Welcome to the IMG Worlds of Adventure, how old are you?\n";
+	int age;
+	cin >> age;
+	cout << "What is your height?\n";
+	double height;
+	cin >> height;
+
+	if ((height > 0.6) && (age > 5))
+	{
+		cout << "jump in";
+	}
+	else
+	{
+		cout << "I'm sorry you dont fit the requiremnents";
+	}
+	return 0;
+}
